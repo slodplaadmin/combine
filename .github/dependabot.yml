@@ -1,0 +1,21 @@
+version: 2
+updates:
+  - package-ecosystem: "django"
+    directory: "/"
+    schedule:
+    interval: "daily"
+
+  - package-ecosystem: "py"
+    directory: "/"
+    schedule:
+    interval: "daily"
+
+  - package-ecosystem: "lxml"
+    directory: "/"
+    schedule:
+    interval: "daily"
+
+  - package-ecosystem: "pygments"
+    directory: "/"
+    schedule:
+    interval: "daily"
